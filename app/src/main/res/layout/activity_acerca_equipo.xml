@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.diurno.ligaendesa.AcercaEquipo">
+
+
+    <TextView
+        android:id="@+id/nombre_equipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:layout_gravity="center"
+        android:text="Baskonia"
+        android:textSize="25dp" />
+
+
+    <ImageView
+        android:id="@+id/logo_equipo"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/baskonia_oficial" />
+
+
+    <TextView
+        android:id="@+id/ciudad_equipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:paddingLeft="40dp"
+        android:paddingBottom="15dp"
+        android:layout_gravity="left"
+        android:text="Ciudad: " />
+
+    <TextView
+        android:id="@+id/estadio_equipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingBottom="15dp"
+        android:layout_gravity="left"
+        android:text="Estadio: " />
+
+    <TextView
+        android:id="@+id/presidente_equipò"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:layout_gravity="left"
+        android:text="Presidente: " />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginLeft="230dp"
+        android:layout_width="135dp"
+        android:onClick="pulsarBotonWeb"
+        android:layout_height="wrap_content"
+        android:text="WEB DEL EQUIPO" />
+
+
+
+
+</LinearLayout>
